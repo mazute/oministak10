@@ -1,13 +1,18 @@
 {
-  "name": "backend",
+  "name": "oministak10",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/mazute/oministak10.git",
+  "author": "mazute <leo.mazute@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.19.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "mongose": "^0.0.2-security"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
